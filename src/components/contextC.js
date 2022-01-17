@@ -8,7 +8,6 @@ class ContextC extends Component {
         {(value) => {
           console.log(value);
           return <div>Hello {value}</div>;
-          <remove this one></remove>
         }}
       </UserConsumer>
     );
