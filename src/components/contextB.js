@@ -7,12 +7,12 @@ class ContextB extends Component {
   render() {
     return (
       <div>
-        Component B Context {this.context}
+        {/* Component B Context {this.context} */}
         <ContextC />
       </div>
     );
   }
 }
 
-ContextB.contextType = UserContext;
+// ContextB.contextType = UserContext;
 export default ContextB;

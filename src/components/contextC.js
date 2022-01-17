@@ -6,6 +6,7 @@ class ContextC extends Component {
     return (
       <UserConsumer>
         {(value) => {
+          console.log(value);
           return <div>Hello {value}</div>;
         }}
       </UserConsumer>

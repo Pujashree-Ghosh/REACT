@@ -54,7 +54,7 @@ function App() {
       {/* context */}
       <UserProvider value="Pujashree">
         <ContextA />
-      </UserProvider>{" "}
+      </UserProvider>
     </div>
   );
 }

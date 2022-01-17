@@ -1,9 +1,9 @@
 import React from "react";
 
-const UserContext = React.createContext("Pujashree");
+const UserContext = React.createContext("pujashree");
 
-const UserProvider = UserContext.UserProvider;
-const UserConsumer = UserContext.UserConsumer;
+const UserProvider = UserContext.Provider;
+const UserConsumer = UserContext.Consumer;
 
 export { UserProvider, UserConsumer };
 export default UserContext;
