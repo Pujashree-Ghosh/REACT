@@ -1,0 +1,8 @@
+import React from "react";
+
+function f() {
+  return <h1> Functional Component</h1>;
+}
+
+// const f=()=><h1>Functional Component</h1>
+export default f;
