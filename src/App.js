@@ -23,7 +23,7 @@ import "./App.css";
 // import Form from "./components/form";
 // import Refs from "./components/refs";
 import ContextA from "./components/contextA";
-import { UserProvider } from "./components/usercontext";
+// import { UserProvider } from "./components/usercontext";
 
 function App() {
   return (
@@ -52,9 +52,9 @@ function App() {
       {/* <HOC /> */}
       {/* <Refs /> */}
       {/* context */}
-      <UserProvider value="Pujashree">
-        <ContextA />
-      </UserProvider>
+      {/* <UserProvider value="shree"> */}
+      <ContextA />
+      {/* </UserProvider> */}
     </div>
   );
 }
